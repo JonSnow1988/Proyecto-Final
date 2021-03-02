@@ -1,3 +1,6 @@
+![GameStore](https://user-images.githubusercontent.com/69521058/109593300-71cd8980-7aef-11eb-92c1-1dadff869982.gif)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
