@@ -1,0 +1,67 @@
+.query-ctn {
+  display: flex;
+  flex-direction: column;
+  font-family: "Permanent Marker", cursive;
+
+  .query-selector {
+    display: flex;
+    flex-direction: row;
+    color: #fd9eaf;
+    list-style: none;
+    width: 500px;
+    justify-content: space-between;
+    font-size: larger;
+    margin: 1rem auto;
+    padding: 0;
+    text-decoration: none;
+
+    .query-selected {
+      color: #fd9eaf;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+  .underline {
+    height: 0;
+    width: 450px;
+    margin: 1px auto;
+    border: 1px #fd9eaf solid;
+    transition: all 0.3s ease-in-out;
+  }
+  .mecanico {
+    height: 0;
+    width: 100px;
+    margin: 1px auto;
+    position: relative;
+    left: -50px;
+    border: 1px #fd9eaf solid;
+    transition: all 0.3s ease-in-out;
+  }
+  .membrana {
+    height: 0;
+    width: 100px;
+    margin: 1px auto;
+    position: relative;
+    left: 83px;
+    border: 1px #fd9eaf solid;
+    transition: all 0.3s ease-in-out;
+  }
+  .mouse {
+    height: 0;
+    width: 100px;
+    margin: 1px auto;
+    position: relative;
+    left: 180px;
+    border: 1px #fd9eaf solid;
+    transition: all 0.3s ease-in-out;
+  }
+  .headset {
+    height: 0;
+    width: 100px;
+    margin: 1px auto;
+    position: relative;
+    left: 180px;
+    border: 1px #fd9eaf solid;
+    transition: all 0.3s ease-in-out;
+  }
+}

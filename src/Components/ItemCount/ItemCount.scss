@@ -1,0 +1,26 @@
+.itm-count-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: #fa8da1 1px solid;
+  border-radius: 5px;
+  max-width: 150px;
+  background-color: #fa8da1;
+  color: white;
+  position: relative;
+  top: 160px;
+
+  .itm-count-btn {
+    color: white;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 20px;
+
+    &:focus {
+      outline-style: none;
+    }
+    &:disabled {
+      color: rgba(255, 255, 255, 0.24);
+    }
+  }
+}
